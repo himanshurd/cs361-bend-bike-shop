@@ -7,7 +7,6 @@ items = [:apple, :water, :protein_bar]
 
 bike = Bike.new(1, :pink, 99.99, items)
 
-rental = Rental.new(bike)
+rental = Rental.new(bike, 99.9, items)
 
 puts "Total Price: #{rental.price}, Total Weight: #{rental.weight}"
-
